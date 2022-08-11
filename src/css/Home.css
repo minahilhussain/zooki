@@ -1,0 +1,70 @@
+/* home section  */
+#home { 
+  background-color: #0e6cff; 
+  background-image: url("http://zooki.react.themesbrand.com/static/media/home-2-bg.e74a5beee052680d051a.png"); 
+  background-position: 50%; 
+  background-size: cover; 
+  height: 100vh; 
+  position: relative; 
+  font-family: Rubik,sans-serif;
+}
+#home .wrapper {
+  margin: 0 auto;
+  max-width: 1050px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+#home .left{ 
+  font-size: larger;
+  color: #fff;
+}
+#home h1 {
+  font-size: calc(1.475rem + 2.7vw);
+  font-weight: 400 !important;
+  margin: 1rem 0;
+}
+#home p {
+  line-height: 2;
+  margin: 1.5rem 0;
+}
+#home img {
+  width: 28rem;
+  height: 28rem;
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+.btn {
+  background-color: #ff8700;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 4px;
+  font-size: 70%;
+  text-align: center;
+}
+#home a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  #home .wrapper {
+    grid-template-columns: 100%;
+    width: 100%;
+  }
+  #home img {
+    width: 20rem;
+    height: 20rem;
+  }
+  #home .left {
+    margin: 1rem;
+  }
+}
