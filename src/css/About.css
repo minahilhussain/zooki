@@ -1,0 +1,114 @@
+#about {
+  background-image: url("http://zooki.react.themesbrand.com/static/media/bg-light-about.3193fefb89903f744dc7.png"); 
+  background-position: 50%; 
+  background-size: cover; 
+  position: relative;
+  background-color: #fff;
+  align-items: center;
+  height: 120vh;
+  padding: 2rem;
+}
+#about .wrapper {
+  width: clamp(300px,100%, 1100px);
+  margin: 0 auto;
+}
+#about h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 400 !important;
+}
+#about .grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+.grid1 div {
+  padding: 1rem;
+  font-size: 120%;
+}
+#about .wrapper p {
+  color: #6c757d;
+  line-height: 1.5;
+}
+.grid1 a {
+  text-decoration: none;
+  font-size: 150%;
+  color: #212529;
+}
+.grid1 .icon {
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+  border: 1px solid #333;
+  width: 20%;
+  margin: 0 auto 1rem auto;
+  border-radius: 50px;
+  padding: 0.2rem;
+  border: 6px solid transparent;
+}
+.grid1 div:hover > .icon {
+  background-color: #0e6cff; 
+  border: 6px solid #e9eff9;
+  color: #fff;
+}
+#about .grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  font-size: 150%;
+  margin: 2rem 0;
+  font-weight: normal;
+}
+.grid2 ul {
+  margin: 0.4rem;
+  padding: 0.4rem;
+  list-style: none;
+  color: #6c757d;
+}
+
+.grid2 ul li::before {
+  content: "\2022";
+  color: #ff8700;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.grid2 h5 {
+  font-size: 120%;
+  margin-top: 0;
+}
+.grid2 a {
+  color: #ff8700;
+  text-decoration: none; 
+}
+.grid2 img {
+  width: 26rem;
+  height: 16rem;
+  border: 5px solid #e9eff9;
+  border-radius: 5px;
+  margin: 1rem;
+}
+.title-border-simple{
+  background-color: #005bea;
+  height: 2px;
+  top: 15px;
+  width: 120px;
+}
+.title-border-colored{
+  background-color: #ff8700;
+  height: 6px;
+  top: 13px;
+  width: 30px;
+  border-radius: 50px;
+}
+@media screen and (max-width: 600px) {
+  #about .grid1 {
+    width:100%;
+    grid-template-columns: 1fr;
+  }
+  #about .grid2 {
+    width:100%;
+    grid-template-columns: 1fr;
+  }
+}
