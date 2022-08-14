@@ -1,9 +1,8 @@
 import React from 'react'
 import { MdLightbulbOutline, MdOutlineNature } from 'react-icons/md';
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
-
-
 import "../css/About.css"
+import "../css/index.css"
 
 function About() {
   return (

@@ -1,0 +1,48 @@
+#service {
+  background-color: #fff;
+  height: 100vh;
+}
+#service .wrapper {
+  width: clamp(300px,100%, 1100px);
+  margin: 4rem auto;
+  /* background-color: aquamarine; */
+}
+#service .grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+  padding: 4rem 0;
+}
+#service .card {
+  border: 1px solid #dedede;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+  color: #6c757d;
+}
+.more {
+  color: #0e6cff !important;
+  font-size: 70% !important;
+}
+#service .icon {
+  color: #0e6cff !important;
+  font-size: 1.7rem;
+  text-align: left;
+  align-items: center;
+  border: 1px solid #333;
+  width: 20%;
+  /* margin: 0 auto 1rem auto; */
+  border-radius: 50%;
+  padding: 0.2rem;
+  border: 6px solid transparent;
+  background-color: #e9eff9;
+  
+}
+#service .card:hover > .icon {
+  background-color: #0e6cff; 
+  border: 6px solid #e9eff9;
+  color: #fff !important;
+}
+#service a {
+  margin-top: 1rem;
+}

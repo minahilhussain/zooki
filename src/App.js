@@ -1,7 +1,7 @@
 import Header from "./Components/Header.jsx"
 import Home from "./Components/Home.jsx"
 import About from "./Components/About.jsx"
-
+import Services from "./Components/Services.jsx"
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Header/>
       <Home/>
       <About/>
+      <Services/>
     </>
   );
 }

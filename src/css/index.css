@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Rubik,sans-serif;
+  font-size: 0.7rem;
+  margin:0;
+  padding: 0;
+  background-color: #0e6cff;
+}
+.title-border-simple{
+  background-color: #005bea;
+  height: 2px;
+  margin-top: 15px;
+  width: 120px;
+  align-items: center;
+}
+.title-border-colored{
+  background-color: #ff8700;
+  height: 6px;
+  margin-top: 13px !important;
+  width: 30px;
+  border-radius: 50px;
+  align-items: center;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 400 !important;
+}
