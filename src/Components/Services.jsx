@@ -4,7 +4,7 @@ import "../css/index.css"
 import { HiDatabase } from "react-icons/hi"
 import { MdPalette } from "react-icons/md"
 import { BsGraphUp } from "react-icons/bs"
-import { FaYinYang } from "react-icons/fa"
+import { FaYinYang, FaLongArrowAltRight } from "react-icons/fa"
 import { BiCommand } from "react-icons/bi"
 import { TbHexagons } from "react-icons/tb"
 
@@ -23,7 +23,7 @@ function Services() {
             </div>
             <a>Awesome Support</a>
             <p>Sed ut perspiciatis unde sit omnise iste natus voluptatem site accusantium doloremque laudantium combined with a handful totam.</p>
-            <a className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE</a>
+            <a className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
           <div className="card">
             <div class="icon">
@@ -31,7 +31,7 @@ function Services() {
             </div>
             <a>Unlimited Colors</a>
             <p>Sed ut perspiciatis unde sit omnise iste natus voluptatem site accusantium doloremque laudantium combined with a handful totam.</p>
-            <a href="http://zooki.react.themesbrand.com/">LEARN MORE</a>
+            <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
           <div className="card">
             <div class="icon">
@@ -39,14 +39,14 @@ function Services() {
             </div>
             <a>Strategy Solutions</a>
             <p>Sed ut perspiciatis unde sit omnise iste natus voluptatem site accusantium doloremque laudantium combined with a handful totam.</p>
-            <a href="http://zooki.react.themesbrand.com/">LEARN MORE</a>
+            <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div><div className="card">
             <div class="icon">
               <FaYinYang />
             </div>
             <a>Digital Design</a>
             <p>Sed ut perspiciatis unde sit omnise iste natus voluptatem site accusantium doloremque laudantium combined with a handful totam.</p>
-            <a href="http://zooki.react.themesbrand.com/">LEARN MORE</a>
+            <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
           <div className="card">
             <div class="icon">
@@ -54,7 +54,7 @@ function Services() {
             </div>
             <a>Easy to customize</a>
             <p>Sed ut perspiciatis unde sit omnise iste natus voluptatem site accusantium doloremque laudantium combined with a handful totam.</p>
-            <a href="http://zooki.react.themesbrand.com/">LEARN MORE</a>
+            <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
           <div className="card">
             <div class="icon">
@@ -62,7 +62,7 @@ function Services() {
             </div>
             <a>Truly Multipurpose</a>
             <p>Sed ut perspiciatis unde sit omnise iste natus voluptatem site accusantium doloremque laudantium combined with a handful totam.</p>
-            <a href="http://zooki.react.themesbrand.com/">LEARN MORE</a>
+            <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
         </div>
       </div>
