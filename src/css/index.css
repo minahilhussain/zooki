@@ -17,10 +17,11 @@ body {
 .title-border-colored{
   background-color: #ff8700;
   height: 6px;
-  margin-top: 13px !important;
+  margin-top: -2px !important;
   width: 30px;
   border-radius: 50px;
   align-items: center;
+  position: absolute;
 }
 h2 {
   text-transform: uppercase;

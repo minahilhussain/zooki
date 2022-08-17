@@ -12,11 +12,6 @@
   width: clamp(300px,100%, 1100px);
   margin: 0 auto;
 }
-/* #about h2 {
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-weight: 400 !important;
-} */
 .grid1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

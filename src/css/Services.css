@@ -5,7 +5,6 @@
 #service .wrapper {
   width: clamp(300px,100%, 1100px);
   margin: 4rem auto;
-  /* background-color: aquamarine; */
 }
 #service .grid1 {
   display: grid;
