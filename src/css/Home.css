@@ -7,9 +7,10 @@
   height: 90vh; 
   position: relative; 
   font-family: Rubik,sans-serif;
+  top: 0;
 }
 #home .wrapper {
-  margin: 4rem auto;
+  margin: auto;
   max-width: 1050px;
   display: grid;
   grid-template-columns: 1fr 1fr;
