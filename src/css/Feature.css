@@ -1,0 +1,7 @@
+#feature {
+  background-color: #efefef;
+}
+#feature .wrapper {
+  width: clamp(200px, 80%, 1100px);
+  margin: 0 auto;
+}
