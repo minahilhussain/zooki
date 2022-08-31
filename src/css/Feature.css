@@ -1,7 +1,45 @@
 #feature {
   background-color: #efefef;
+  padding: 2rem;
 }
-#feature .wrapper {
+#feature .container {
   width: clamp(200px, 80%, 1100px);
   margin: 0 auto;
+}
+#feature h3 {
+  font-size: 1.8em !important;
+  font-weight: normal;
+  color: #020202;
+}
+#feature p {
+  color: #999;
+  line-height: 1.5;
+}
+#feature .wrapper {
+  display: flex;
+  flex-flow: row-wrap;
+  align-items: center;
+}
+#feature .left {
+  margin: 2rem 2rem 2rem 0;
+  align-items: center;
+}
+#feature .right {
+  background-color: #005bea;
+  margin: 2rem 2rem 2rem 0;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0.7rem;
+}
+#feature .icon {
+  color: #0e6cff !important;
+  font-size: 1.7rem;
+  text-align: left;
+  align-items: center;
+  border: 1px solid #333;
+  width: 20%;
+  border-radius: 50%;
+  padding: 0.2rem;
+  border: 6px solid transparent;
+  background-color: #e9eff9; 
 }

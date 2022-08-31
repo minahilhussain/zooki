@@ -30,12 +30,10 @@
   align-items: center;
   border: 1px solid #333;
   width: 20%;
-  /* margin: 0 auto 1rem auto; */
   border-radius: 50%;
   padding: 0.2rem;
   border: 6px solid transparent;
-  background-color: #e9eff9;
-  
+  background-color: #e9eff9; 
 }
 #service .card:hover > .icon {
   background-color: #0e6cff; 
