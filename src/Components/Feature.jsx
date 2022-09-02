@@ -25,7 +25,19 @@ function Feature() {
             <img src="http://zooki.react.themesbrand.com/static/media/img-1.1bb1c555fb21d91778ad.png" alt="feature-first"/>
           </div>
         </div>
+        <div className="wrapper">
+          <div className="left">
+            <img src="http://zooki.react.themesbrand.com/static/media/img-1.1bb1c555fb21d91778ad.png" alt="feature-first"/>
+          </div>
+          <div className="right">
+            <h3>Marketing Performance</h3>
+            <p>Itaque earum rerum hic tenetur sapiente delectut reiciendis voluptatibus perspiciatis unde omnis iste natus error sit maiores alias consequatur perferendisthat doloribus asperiores repellat.</p>
+            <p>Nam libero tempore cum soluta nobis eligendi optio cumque nihil impedit minusidquod maxime placeat facere possimus.</p>
+            <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
+          </div>
+        </div>
       </div>
+      
       </section>
   )
 }
