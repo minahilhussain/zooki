@@ -20,11 +20,11 @@
   flex-flow: row-wrap;
   align-items: center;
 }
-#feature .left {
+#feature .text {
   margin: 2rem 2rem 2rem 0;
   align-items: center;
 }
-#feature .right {
+#feature .image {
   background-color: #005bea;
   margin: 2rem 2rem 2rem 0;
   align-items: center;
@@ -42,4 +42,8 @@
   padding: 0.2rem;
   border: 6px solid transparent;
   /* background-color: #e9eff9;  */
+}
+#feature .head-icon {
+  color: #0e6cff;
+  zoom: 250%;
 }
