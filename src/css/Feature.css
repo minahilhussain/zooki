@@ -46,3 +46,11 @@
   color: #0e6cff;
   zoom: 250%;
 }
+#feature .image img:hover {
+  zoom:110%;
+}
+#feature .image img{
+  position: relative;
+  transition: all .5s;
+  z-index: 1;
+}
