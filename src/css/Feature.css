@@ -29,7 +29,7 @@
   margin: 2rem 2rem 2rem 0;
   align-items: center;
   border-radius: 50%;
-  padding: 0.7rem;
+  flex-basis: 50%;
 }
 #feature .icon {
   color: #0e6cff !important;
@@ -47,10 +47,11 @@
   zoom: 250%;
 }
 #feature .image img:hover {
-  zoom:110%;
+  /* zoom:110%; */
 }
-#feature .image img{
+#feature .inner-image{
   position: relative;
-  transition: all .5s;
-  z-index: 1;
+  background-image: url('http://zooki.react.themesbrand.com/static/media/features-bg-effect.89b5be76ea9eec163deb.png'); 
+  background-size: cover;
+  background-position: 50%;
 }

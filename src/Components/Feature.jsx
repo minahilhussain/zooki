@@ -24,12 +24,16 @@ function Feature() {
             <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
           <div className="image">
-            <img src="http://zooki.react.themesbrand.com/static/media/img-1.1bb1c555fb21d91778ad.png" alt="feature-first"/>
+            <div className="inner-image">
+              <img src="http://zooki.react.themesbrand.com/static/media/img-1.1bb1c555fb21d91778ad.png" alt="feature-first"/>
+            </div>
           </div>
         </div>
         <div className="wrapper">
           <div className="image">
-            <img src="http://zooki.react.themesbrand.com/static/media/img-2.73bbfc3f31770042da4d.png" alt="feature-first"/>
+            <div className="inner-image">
+              <img src="http://zooki.react.themesbrand.com/static/media/img-2.73bbfc3f31770042da4d.png" alt="feature-first"/>
+            </div>
           </div>
           <div className="text">
             <span className="head-icon">
@@ -52,7 +56,9 @@ function Feature() {
             <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
           <div className="image">
-            <img src="http://zooki.react.themesbrand.com/static/media/img-3.1dbfd73268f019064e9f.png" alt="feature-first"/>
+            <div className="inner-image">
+              <img src="http://zooki.react.themesbrand.com/static/media/img-3.1dbfd73268f019064e9f.png" alt="feature-first"/>
+            </div>
           </div>
         </div>
       </div>
