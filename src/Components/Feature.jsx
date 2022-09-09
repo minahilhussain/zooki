@@ -40,7 +40,7 @@ function Feature() {
               <BsArrowsMove/>
             </span>
             <h3>Strategy Solutions</h3>
-            <p>Itaque earum rerum hic tenetur sapiente delectut reiciendis voluptatibus perspiciatis unde omnis iste natus error sit maiores alias consequatur perferendisthat doloribus asperiores repellat.</p>
+            <p>Itaque earum rerum hic tenetur sapiente delectut reiciendis voluptatibus perspiciatis unde omnis rty jjhhkj rehm earum rerum hic tenetur sapiente delectut reici earum rerum hic tenetur sapiente delectut reic.</p>
             <p>Nam libero tempore cum soluta nobis eligendi optio cumque nihil impedit minusidquod maxime placeat facere possimus.</p>
             <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
