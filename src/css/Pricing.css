@@ -1,0 +1,15 @@
+#pricing {
+  height: 100vh;
+  background-color: #fcdef1;
+}
+#pricing .wrapper {
+  width: clamp(300px,100%, 1100px);
+  margin: 4rem auto;
+}
+#pricing #container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: left;
+  padding: 4rem 0;
+
+}
