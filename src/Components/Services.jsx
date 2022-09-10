@@ -11,14 +11,14 @@ import { TbHexagons } from "react-icons/tb"
 function Services() {
   return (
     <section id="service">
-      <div class="wrapper">
+      <div className="wrapper">
         <h2>our services</h2>
         <div className='title-border-simple'>
           <div className='title-border-colored'></div>
         </div>
-        <div class="grid1">
+        <div className="grid1">
           <div className="card">
-            <div class="icon">
+            <div className="icon">
               <HiDatabase/>
             </div>
             <a>Awesome Support</a>
@@ -26,7 +26,7 @@ function Services() {
             <a className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
           <div className="card">
-            <div class="icon">
+            <div className="icon">
               <MdPalette/>
             </div>
             <a>Unlimited Colors</a>
@@ -34,14 +34,14 @@ function Services() {
             <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
           <div className="card">
-            <div class="icon">
+            <div className="icon">
               <BsGraphUp />
             </div>
             <a>Strategy Solutions</a>
             <p>Sed ut perspiciatis unde sit omnise iste natus voluptatem site accusantium doloremque laudantium combined with a handful totam.</p>
             <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div><div className="card">
-            <div class="icon">
+            <div className="icon">
               <FaYinYang />
             </div>
             <a>Digital Design</a>
@@ -49,7 +49,7 @@ function Services() {
             <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
           <div className="card">
-            <div class="icon">
+            <div className="icon">
               <BiCommand/>
             </div>
             <a>Easy to customize</a>
@@ -57,7 +57,7 @@ function Services() {
             <a  className="more" href="http://zooki.react.themesbrand.com/">LEARN MORE <FaLongArrowAltRight/></a>
           </div>
           <div className="card">
-            <div class="icon">
+            <div className="icon">
               <TbHexagons/>
             </div>
             <a>Truly Multipurpose</a>

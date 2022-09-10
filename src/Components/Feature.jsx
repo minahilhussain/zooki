@@ -8,7 +8,7 @@ import { AiOutlineMonitor } from "react-icons/ai"
 function Feature() {
   return (
       <section id="feature">
-      <div class="container">
+      <div className="container">
         <h2>our Features</h2>
         <div className='title-border-simple'>
           <div className='title-border-colored'></div>
