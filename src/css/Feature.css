@@ -20,6 +20,8 @@
   flex-flow: row-wrap;
   align-items: center;
 }
+#feature .wrapper:nth-child(even) {
+}
 #feature .text {
   margin: 2rem 2rem 2rem 0;
   align-items: center;
