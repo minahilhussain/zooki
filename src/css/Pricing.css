@@ -14,10 +14,10 @@
 .price-card {
   margin: 1rem;
   padding: 2rem 1rem;
-  border: 2px solid grey;
+  border: 1px solid #f3f3f3;
 }
-.price-card p{
-  line-height: 1.5;
+.price-card p {
+  line-height: 1.8;
   color: grey;
 }
 .price-card a{
@@ -25,14 +25,24 @@
   background-color: #fff;
   color: #015be9;
   border: 2px solid #015be9;
-  padding: 10px;
+  padding: 14px 25px;
   border-radius: 5px;
-  margin: 1rem 0 !important;
+  margin: 1rem 0.7rem !important;
+  text-transform: uppercase;
 }
 .price-card a:hover {
   background-color: #015be9;
   color: #fff;
+  box-shadow: 0 3px 20px -8px #000;
+
 }
 .price-card .text {
-  padding: 2rem 0;
+  padding: 2rem 0 2rem 0.7rem;
+}
+#pricing .price-card:hover {
+  border-color: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.03);
+  transition: all .5s;
 }
