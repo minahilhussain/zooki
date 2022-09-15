@@ -34,7 +34,6 @@
   background-color: #015be9;
   color: #fff;
   box-shadow: 0 3px 20px -8px #000;
-
 }
 .price-card .text {
   padding: 2rem 0 2rem 0.7rem;
@@ -45,4 +44,17 @@
   -webkit-transform: scale(1.01);
   transform: scale(1.03);
   transition: all .5s;
+}
+
+.price-card:nth-child(2) {
+  border-color: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.05);
+  transition: all .5s;
+}
+.price-card:nth-child(2) a{
+  background-color: #015be9;
+  color: #fff;
+  box-shadow: 0 3px 20px -8px #000;
 }
