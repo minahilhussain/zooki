@@ -13,7 +13,6 @@
 }
 .price-card {
   margin: 1rem;
-  padding: 2rem 1rem;
   border: 1px solid #f3f3f3;
 }
 .price-card p {
@@ -36,7 +35,8 @@
   box-shadow: 0 3px 20px -8px #000;
 }
 .price-card .text {
-  padding: 2rem 0 2rem 0.7rem;
+  padding: 1.7rem 1rem 1rem 0.7rem;
+  margin: 0rem 1rem;
 }
 #pricing .price-card:hover {
   border-color: #fff;
@@ -45,7 +45,6 @@
   transform: scale(1.03);
   transition: all .5s;
 }
-
 .price-card:nth-child(2) {
   border-color: #fff;
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
@@ -57,4 +56,19 @@
   background-color: #015be9;
   color: #fff;
   box-shadow: 0 3px 20px -8px #000;
+}
+.price-card .card-top {
+  background-color: #eee;
+}
+.price-card .card-top p {
+  margin: 0;
+  padding: 1.7rem 1rem 1.7rem 1.5rem;
+  font-size: 20px;
+  color: #000;
+}
+.price-card .card-top strong {
+  font-size: 28px;
+}
+.price-card .buy-btn {
+  padding: 2rem 1rem;
 }

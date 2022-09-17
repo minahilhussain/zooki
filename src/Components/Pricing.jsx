@@ -11,7 +11,9 @@ function Pricing() {
         </div>
         <div id="container">
           <div className="price-card">
-            <h4>Basic<strong>$ 19.00</strong></h4>
+            <div className="card-top">
+              <p>Basic <small>$</small><strong> 19.00</strong></p>
+            </div>
             <div className="text">
               <p>Bandwidth: 1GB</p>
               <p>Onlinespace: 100MB</p>
@@ -19,10 +21,14 @@ function Pricing() {
               <p>Domain: 05</p>
               <p>Hidden Fees: No</p>
             </div>
-            <a href="http://zooki.react.themesbrand.com/">Buy Now</a>
+            <div className="buy-btn">
+              <a href="http://zooki.react.themesbrand.com/">Buy Now</a>
+            </div>
           </div>
           <div className="price-card">
-            <h4>Popular<strong>$ 39.00</strong></h4>
+            <div className="card-top">
+              <p>Popular<small> $ </small><strong> 39.00</strong></p>
+            </div>
             <div className="text">
               <p>Bandwidth: 1.5GB</p>
               <p>Onlinespace: 500MB</p>
@@ -33,7 +39,9 @@ function Pricing() {
             <a href="http://zooki.react.themesbrand.com/">Buy Now</a>
           </div>
           <div className="price-card">
-            <h4>Advance<strong>$ 80.00</strong></h4>
+            <div className="card-top">
+              <p>Advance<small> $ </small><strong> 80.00</strong></p>
+            </div>
             <div className="text">
               <p>Bandwidth: 2GB</p>
               <p>Onlinespace: 1MB</p>
@@ -44,7 +52,9 @@ function Pricing() {
             <a href="http://zooki.react.themesbrand.com/">Buy Now</a>
           </div>
           <div className="price-card">
-            <h4>Premium<strong>$ 99.00</strong></h4>
+            <div className="card-top">
+              <p>Premium<small> $ </small><strong> 99.00</strong></p>
+            </div>
             <div className="text">
               <p>Bandwidth: 2.5GB</p>
               <p>Onlinespace: 1.5MB</p>
