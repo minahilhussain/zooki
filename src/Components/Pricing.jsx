@@ -36,7 +36,9 @@ function Pricing() {
               <p>Domain: 10</p>
               <p>Hidden Fees: No</p>
             </div>
-            <a href="http://zooki.react.themesbrand.com/">Buy Now</a>
+            <div className="buy-btn">
+              <a href="http://zooki.react.themesbrand.com/">Buy Now</a>
+            </div>
           </div>
           <div className="price-card">
             <div className="card-top">
@@ -49,7 +51,9 @@ function Pricing() {
               <p>Domain: 15</p>
               <p>Hidden Fees: No</p>
             </div>
-            <a href="http://zooki.react.themesbrand.com/">Buy Now</a>
+            <div className="buy-btn">
+              <a href="http://zooki.react.themesbrand.com/">Buy Now</a>
+            </div>
           </div>
           <div className="price-card">
             <div className="card-top">
@@ -62,7 +66,9 @@ function Pricing() {
               <p>Domain: 20</p>
               <p>Hidden Fees: No</p>
             </div>
-            <a href="http://zooki.react.themesbrand.com/">Buy Now</a>
+            <div className="buy-btn">
+              <a href="http://zooki.react.themesbrand.com/">Buy Now</a>
+            </div>
           </div>
         </div>
       </div>
