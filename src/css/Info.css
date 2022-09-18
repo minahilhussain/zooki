@@ -1,0 +1,44 @@
+#info {
+  background-image: url("http://zooki.react.themesbrand.com/static/media/footer-bg.4fa646e4a652770dc6ee.png");
+  background-position: 50%;
+  background-size: cover;
+}
+#info .container {
+  width: clamp(300px,100%, 1100px);
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-between;
+  padding: 5rem;
+}
+#info ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style-type: none;
+}
+#info li, #info li a {
+  color: grey;
+  list-style-type: none;
+  line-height: 3;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+#info li a:hover {
+  color:#ff8700;
+  transition: all .5s;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#info p {
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 800px) {
+  #info .container {
+    flex-direction: column;
+    padding-left: 0.5rem;
+  }
+}
