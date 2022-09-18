@@ -4,6 +4,8 @@ import About from "./Components/About.jsx"
 import Services from "./Components/Services.jsx"
 import Feature from "./Components/Feature.jsx"
 import Pricing from "./Components/Pricing.jsx"
+import Footer from "./Components/Footer.jsx"
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <Services />
       <Feature />
       <Pricing />
+      <Footer />
     </>
   );
 }
