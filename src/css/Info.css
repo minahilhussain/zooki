@@ -9,7 +9,7 @@
   display: flex;
   flex-flow: row-wrap;
   justify-content: space-between;
-  padding: 5rem;
+  padding: 5rem 0;
 }
 #info ul {
   margin: 0 !important;
