@@ -1,0 +1,14 @@
+#getInTouch {
+  background-color: #efefef;
+}
+#getInTouch .wrapper {
+  width: clamp(300px,100%, 1100px);
+  margin: 4rem auto;
+  margin: 4rem auto;
+  padding: 2rem 0;
+}
+#getInTouch .container {
+  border: 2px solid red;
+  display:flex;
+  flex-direction: row;
+}
