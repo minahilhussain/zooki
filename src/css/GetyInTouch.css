@@ -8,7 +8,24 @@
   padding: 2rem 0;
 }
 #getInTouch .container {
-  border: 2px solid red;
   display:flex;
   flex-direction: row;
+}
+#getInTouch .left {
+  flex-basis: 60%;
+}
+#getInTouch input {
+  margin-left: 2rem;
+}
+#getInTouch .right {
+  flex-basis: 30%;
+  margin-left: 2rem;
+  font-size: 14px;
+  color: gray
+}
+#getInTouch .right span:nth-child(2) {
+  margin-left: 1rem;
+}
+#getInTouch .right span:nth-child(1) {
+  margin-left: 34px;
 }

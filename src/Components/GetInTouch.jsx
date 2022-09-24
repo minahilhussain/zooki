@@ -1,9 +1,8 @@
 import React from 'react'
 import "../css/GetyInTouch.css"
-import { MdFacebook } from "react-icons/md"
-import { FaTwitter, FaGooglePlusG, FaLinkedin, FaWhatsapp } from "react-icons/fa"
-
-// import { MdLightbulbOutline, MdOutlineNature } from 'react-icons/md';
+import { MdFacebook, MdOutlineLocationOn } from "react-icons/md"
+import { AiOutlineMail } from "react-icons/ai"
+import { FaTwitter, FaGooglePlusG, FaLinkedin, FaWhatsapp, FaHeadphones } from "react-icons/fa"
 
 function GetInTouch() {
   return (
@@ -22,12 +21,12 @@ function GetInTouch() {
             <button type="submit" value="Send Message"></button>
           </div>
           <div className="right">
-            <p>Call :</p>
-            <p>012-345-6789</p>
-            <p>Email :</p>
-            <p>youremailid@gmail.com</p>
-            <p>Location :</p>
-            <p>3179 Raccoon Run Seattle, WA 98109</p>
+            <p><FaHeadphones /><span>Call :</span></p>
+            <p><span>012-345-6789</span></p>
+            <p><AiOutlineMail/><span>Email :</span></p>
+            <p><span>youremailid@gmail.com</span></p>
+            <p><MdOutlineLocationOn/><span>Location :</span></p>
+            <p><span>3179 Raccoon Run Seattle, WA 98109</span></p>
             <h3>Follow</h3>
             <MdFacebook/>
             <FaTwitter/>
