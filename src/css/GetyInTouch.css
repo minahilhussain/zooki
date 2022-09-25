@@ -21,11 +21,16 @@
   flex-basis: 30%;
   margin-left: 2rem;
   font-size: 14px;
-  color: gray
+  color: gray;
+  line-height: 2;
 }
 #getInTouch .right span:nth-child(2) {
   margin-left: 1rem;
 }
-#getInTouch .right span:nth-child(1) {
-  margin-left: 34px;
+#getInTouch .right span:first-child {
+  background-color: blue;
+  color: #fff;
+  padding: 14px;
+  border-radius: 50%;
+  font-size: 24px;
 }

@@ -21,18 +21,32 @@ function GetInTouch() {
             <button type="submit" value="Send Message"></button>
           </div>
           <div className="right">
-            <p><FaHeadphones /><span>Call :</span></p>
-            <p><span>012-345-6789</span></p>
-            <p><AiOutlineMail/><span>Email :</span></p>
-            <p><span>youremailid@gmail.com</span></p>
-            <p><MdOutlineLocationOn/><span>Location :</span></p>
-            <p><span>3179 Raccoon Run Seattle, WA 98109</span></p>
-            <h3>Follow</h3>
-            <MdFacebook/>
-            <FaTwitter/>
-            <FaGooglePlusG/>
-            <FaLinkedin/>
-            <FaWhatsapp/>
+            <div>
+              <span><FaHeadphones/></span>
+              <span>Call :</span>
+              <br/>
+              <span>012-345-6789</span>
+            </div>
+            <div>
+              <span><AiOutlineMail/></span>
+              <span>Email :</span>
+              <br/>
+              <span>youremailid@gmail.com</span>
+            </div>
+            <div>
+              <span><MdOutlineLocationOn/></span>
+              <span>Location :</span>
+              <br/>
+              <span>3179 Raccoon Run Seattle, WA 98109</span>
+            </div>
+            <div>
+              <h3>Follow</h3>
+              <MdFacebook/>
+              <FaTwitter/>
+              <FaGooglePlusG/>
+              <FaLinkedin/>
+              <FaWhatsapp/>
+            </div>
           </div>
 
         </div>
