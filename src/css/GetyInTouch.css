@@ -33,3 +33,14 @@
   font-size: 24px;
   border: 2px solid grey;
 }
+#getInTouch .icon {
+  margin: 12px;
+  padding: 8px;
+  border-radius: 50%;
+}
+#getInTouch .icon:hover {
+  background-color: #ff8700;
+  box-shadow: 0 0 0 6px rgb(255 135 0 / 15%);
+  color: #fff!important;
+  position: relative;
+}

@@ -41,11 +41,11 @@ function GetInTouch() {
             </div>
             <div>
               <h3>Follow</h3>
-              <MdFacebook/>
-              <FaTwitter/>
-              <FaGooglePlusG/>
-              <FaLinkedin/>
-              <FaWhatsapp/>
+              <span className="icon"><MdFacebook/></span>
+              <span className="icon"><FaTwitter/></span>
+              <span className="icon"><FaGooglePlusG/></span>
+              <span className="icon"><FaLinkedin/></span>
+              <span className="icon"><FaWhatsapp/></span>
             </div>
           </div>
 
