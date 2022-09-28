@@ -44,3 +44,8 @@
   color: #fff!important;
   position: relative;
 }
+#getInTouch h3 {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 580;
+}
