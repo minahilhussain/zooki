@@ -20,6 +20,7 @@
 #getInTouch .right {
   flex-basis: 30%;
   margin-left: 2rem;
+  margin-top: 2rem;
   font-size: 14px;
   color: gray;
   line-height: 2;
@@ -48,4 +49,10 @@
   color: #000;
   font-size: 1.4rem;
   font-weight: 580;
+}
+#getInTouch .right .content{
+  margin-left: 3.7rem;
+}
+#getInTouch .right div {
+  align-items: center;
 }

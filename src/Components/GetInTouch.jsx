@@ -25,19 +25,19 @@ function GetInTouch() {
               <span><FaHeadphones/></span>
               <span>Call :</span>
               <br/>
-              <span>012-345-6789</span>
+              <span className="content">012-345-6789</span>
             </div>
             <div>
               <span><AiOutlineMail/></span>
               <span>Email :</span>
               <br/>
-              <span>youremailid@gmail.com</span>
+              <span className="content">youremailid@gmail.com</span>
             </div>
             <div>
               <span><MdOutlineLocationOn/></span>
               <span>Location :</span>
               <br/>
-              <span>3179 Raccoon Run Seattle, WA 98109</span>
+              <span className="content">3179 Raccoon Run Seattle, WA 98109</span>
             </div>
             <div>
               <h3>Follow</h3>
