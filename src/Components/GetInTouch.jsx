@@ -14,10 +14,10 @@ function GetInTouch() {
         </div>
         <div className="container">
           <div className="left">
-            <input type="text" placeholder="Name"></input>
-            <input type="text" placeholder="Email"></input><br/>
-            <input type="text" placeholder="Subject"></input><br/>
-            <input type="textarea" placeholder="Message"></input><br/>
+            <input type="text" id="name" placeholder="Name"></input>
+            <input type="text" id="email" placeholder="Email"></input><br/>
+            <input type="text" id="subject" placeholder="Subject"></input><br/>
+            <textarea id="message" placeholder="Message"></textarea><br/>
             <button type="submit" value="Send Message"></button>
           </div>
           <div className="right">
