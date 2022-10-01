@@ -59,18 +59,26 @@
 #getInTouch .right div {
   align-items: center;
 }
-#getInTouch #subject, #message {
-  width: 100%;
+#getInTouch #subject, #message, #getInTouch input {
   margin: 0.4rem 1.2rem;
   padding: 0.5rem 1rem;
+  border: 1px solid #e9e8ef;
+  border-radius: 5px;
 }
 #getInTouch input {
   width: 44%;
-  padding: 0.5rem 1rem;
+}
+#getInTouch #subject, #message {
+  width: 100%;
 }
 #getInTouch #name {
   margin: 0.4rem 0.6rem 0.4rem 1.2rem; 
 }
 #getInTouch #email{
   margin: 0.4rem 1.2rem 0.4rem 0.6rem;
+}
+#getInTouch input:focus, textarea:focus {
+  background-color: #f6f6f6;
+  border-color: #f3f3f3 #f3f3f3 #ff8700;
+  box-shadow: none;
 }
