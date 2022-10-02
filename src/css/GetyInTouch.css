@@ -16,6 +16,8 @@
 }
 #getInTouch .left {
   flex-basis: 60%;
+  align-items: center;
+  justify-content: center;
 }
 #getInTouch input {
   margin-left: 2rem;
@@ -87,6 +89,13 @@
   color: #f3f3f3;
   text-transform: uppercase;
   margin: 1.2rem;
-  padding: 0.5rem;
-
+  padding: 0.7rem 1.5rem;
+  font-size: smaller;
+  border: 1px solid #ff8700;
+  border-radius: 5px;
+}
+#getInTouch button:hover {
+  box-shadow: 0 3px 20px -8px #000;
+  cursor: pointer;
+  transform: translateY(-3px);
 }
