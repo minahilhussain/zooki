@@ -82,3 +82,11 @@
   border-color: #f3f3f3 #f3f3f3 #ff8700;
   box-shadow: none;
 }
+#getInTouch button {
+  background-color: #ff8700;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  margin: 1.2rem;
+  padding: 0.5rem;
+
+}

@@ -18,7 +18,7 @@ function GetInTouch() {
             <input type="text" id="email" placeholder="Email"></input><br/>
             <input type="text" id="subject" placeholder="Subject"></input><br/>
             <textarea id="message" placeholder="Message"></textarea><br/>
-            <button type="submit" value="Send Message"></button>
+            <button type="submit" value="Send Message">Send Message</button>
           </div>
           <div className="right">
             <div>
