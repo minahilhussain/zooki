@@ -71,7 +71,7 @@
   width: 44%;
 }
 #getInTouch #subject, #message {
-  width: 100%;
+  width: 92%;
 }
 #getInTouch #name {
   margin: 0.4rem 0.6rem 0.4rem 1.2rem; 
@@ -98,4 +98,7 @@
   box-shadow: 0 3px 20px -8px #000;
   cursor: pointer;
   transform: translateY(-3px);
+}
+#getInTouch #message {
+  height: 10rem;
 }
