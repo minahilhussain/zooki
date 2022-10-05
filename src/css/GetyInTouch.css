@@ -102,3 +102,14 @@
 #getInTouch #message {
   height: 10rem;
 }
+
+@media screen and (max-width: 620px) {
+  #getInTouch .container {
+    display:flex;
+    flex-direction: column;
+  }
+  #getInTouch #name, #getInTouch #email {
+    width: 92%;
+    margin: 0.6rem 1.2rem;
+  }
+}
