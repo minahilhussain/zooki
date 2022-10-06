@@ -52,13 +52,15 @@
   transform: scale(1.05);
   transition: all .5s;
 }
-.price-card:nth-child(2) a{
+.price-card:nth-child(2) .card-top p, .price-card:nth-child(2) a {
   background-color: #015be9;
   color: #fff;
+}
+.price-card:nth-child(2) a {
   box-shadow: 0 3px 20px -8px #000;
 }
 .price-card .card-top {
-  background-color: #eee;
+  background-color: #f8f9fa;
 }
 .price-card .card-top p {
   margin: 0;
@@ -71,4 +73,23 @@
 }
 .price-card .buy-btn {
   padding: 2rem 1rem;
+}
+#pricing .card-top::before {
+  background-color: #015be9;
+  border-bottom: 1px solid #015be9;
+  border-right: 1px solid #015be9;
+  /* border-bottom: 1px solid #f3f3f3; */
+  /* border-right: 1px solid #f3f3f3; */
+  bottom: 349px;
+  top: 108;
+  content: "";
+  height: 20px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transition: all .5s;
+  width: 20px;
 }
