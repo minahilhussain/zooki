@@ -9,6 +9,8 @@
   position: fixed;
   right: 0;
   background: transparent;
+  padding: 0 6rem;
+  align-items: center;
 }
 .topnav a {
   float: right;
