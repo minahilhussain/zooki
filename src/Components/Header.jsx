@@ -10,6 +10,14 @@ function Header() {
       x.className = "topnav";
     }
   }
+  window.onscroll = function() {
+    var navbar2 = document.getElementById("top_nav");
+    if (this.scrollY > 20) {
+      navbar2.classList.add("scroll");
+    } else {
+      navbar2.classList.remove("scroll");
+    }
+  };
   return (
     <div className="header">
       <div className="topnav" id="top_nav">
