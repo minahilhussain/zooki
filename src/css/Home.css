@@ -4,7 +4,7 @@
   background-image: url("http://zooki.react.themesbrand.com/static/media/home-2-bg.e74a5beee052680d051a.png"); 
   background-position: 50%; 
   background-size: cover; 
-  height: 90vh; 
+  height: 100vh; 
   position: relative; 
   font-family: Rubik,sans-serif;
   top: 0;
@@ -16,6 +16,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center !important;
   justify-content: center;
+  padding: 7rem 0;
 }
 #home .left  { 
   font-size: larger;
