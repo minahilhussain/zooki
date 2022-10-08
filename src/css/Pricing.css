@@ -1,5 +1,5 @@
 #pricing {
-  height: 100vh;
+  height: 85vh;
 }
 #pricing .wrapper {
   width: clamp(300px,100%, 1100px);
@@ -74,12 +74,10 @@
 .price-card .buy-btn {
   padding: 2rem 1rem;
 }
-#pricing .card-top::before {
+#pricing .price-card:nth-child(2) .card-top::before {
   background-color: #015be9;
   border-bottom: 1px solid #015be9;
   border-right: 1px solid #015be9;
-  /* border-bottom: 1px solid #f3f3f3; */
-  /* border-right: 1px solid #f3f3f3; */
   bottom: 349px;
   top: 108;
   content: "";
