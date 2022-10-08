@@ -31,7 +31,7 @@
   margin: 2rem 2rem 2rem 0;
   align-items: center;
   border-radius: 50%;
-  flex-basis: 50%;
+  flex-basis: 60%;
 }
 #feature .icon {
   color: #0e6cff !important;
@@ -56,6 +56,6 @@
 #feature .inner-image{
   position: relative;
   background-image: url('http://zooki.react.themesbrand.com/static/media/features-bg-effect.89b5be76ea9eec163deb.png'); 
-  background-size: cover;
+  background-size: 29rem 29rem;
   background-position: 50%;
 }
