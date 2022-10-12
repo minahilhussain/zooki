@@ -25,20 +25,21 @@
 }
 #service .icon {
   color: #0e6cff !important;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   text-align: left;
   align-items: center;
   border: 1px solid #333;
   width: 20%;
   border-radius: 50%;
-  padding: 0.2rem;
+  padding: 0.5rem;
   border: 6px solid transparent;
   background-color: #e9eff9; 
   margin-bottom: 1rem;
 }
 #service .card:hover > .icon {
-  background-color: #0e6cff; 
-  border: 6px solid #e9eff9;
+  background-color: #005bea;
+  border-color: #005bea;
+  box-shadow: 0 0 0 7px rgb(0 91 234 / 15%);
   color: #fff !important;
 }
 #service .grid1 a {
@@ -48,7 +49,9 @@
   margin: 2rem 0 !important;
   padding: 1rem 0;
 }
-
+#service .card:hover > a {
+  color: #005bea;
+}
 #service .card:hover {
   border-color: #fff;
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
