@@ -51,6 +51,7 @@
   background-color: #005bea;
   border-color: #005bea;
   box-shadow: 0 0 0 7px rgb(0 91 234 / 15%);
+  color: white;
 }
 #about .grid2 {
   display: grid;
