@@ -62,7 +62,6 @@
   #home .wrapper {
     grid-template-columns: 100%;
     width: 100%;
-    /* margin-top:-20px; */
   }
   #home img {
     width: 20rem;

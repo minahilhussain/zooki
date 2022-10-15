@@ -99,5 +99,9 @@
   #about .grid2 {
     width:100%;
     grid-template-columns: 1fr;
+    margin: 0.5rem auto !important;
+  }
+  #about .grid2 .right img {
+    max-width: 400px;
   }
 }
