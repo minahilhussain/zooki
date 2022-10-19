@@ -7,13 +7,13 @@ body {
   margin:0;
   padding: 0;
 }
-.title-border-simple{
+.title-border-simple {
   background-color: #005bea;
   height: 2px;
   width: 120px;
   align-items: center;
 }
-.title-border-colored{
+.title-border-colored {
   background-color: #ff8700;
   height: 6px;
   margin-top: -2px !important;
@@ -26,4 +26,9 @@ h2 {
   text-transform: uppercase;
   font-size: 1.8rem;
   font-weight: 300 !important;
+}
+@media screen and (max-width: 600px) {
+  h2, .title-border-simple {
+    margin-left: 2rem;
+  }
 }

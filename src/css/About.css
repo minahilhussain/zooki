@@ -104,4 +104,7 @@
   #about .grid2 .right img {
     max-width: 400px;
   }
+  #about h2, #about .title-border-simple {
+    margin-left: 0;
+  }
 }
