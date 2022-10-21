@@ -84,4 +84,10 @@
     display: block;
     text-align: left;
   }
+  .topnav.responsive img {
+    background-color: red;
+    max-zoom: 1.2%;
+    width: 35%;
+    height: 20%;
+  }
 }
