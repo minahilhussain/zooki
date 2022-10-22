@@ -3,7 +3,7 @@
   height: 120vh;
 }
 #service .wrapper {
-  width: clamp(300px,100%, 1100px);
+  width: clamp(300px, 100%, 1100px);
   margin: 4rem auto;
 }
 #service .grid1 {
@@ -58,4 +58,20 @@
   -webkit-transform: scale(1.01);
   transform: scale(1.01);
   transition: all .5s;
+}
+@media screen and (max-width: 600px) {
+  #service {
+    height: auto;
+  }
+  #service .grid1 {
+    width:100%;
+    grid-template-columns: 1fr;
+  }
+  #service .card {
+    margin: 1.5rem !important; 
+  }
+  #service .icon {
+    font-size: 1.7rem;
+    padding: 10px 16px;
+  }
 }

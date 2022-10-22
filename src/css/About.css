@@ -92,6 +92,9 @@
   margin: 1rem;
 }
 @media screen and (max-width: 600px) {
+  #about {
+    height: auto;
+  }
   #about .grid1 {
     width:100%;
     grid-template-columns: 1fr;
