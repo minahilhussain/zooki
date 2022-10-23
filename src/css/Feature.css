@@ -1,6 +1,6 @@
 #feature {
   background-color: #efefef;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 #feature .container {
   width: clamp(200px, 80%, 1100px);
@@ -19,8 +19,6 @@
   display: flex;
   flex-flow: row-wrap;
   align-items: center;
-}
-#feature .wrapper:nth-child(even) {
 }
 #feature .text {
   margin: 2rem 2rem 2rem 0;
@@ -58,4 +56,18 @@
   background-image: url('http://zooki.react.themesbrand.com/static/media/features-bg-effect.89b5be76ea9eec163deb.png'); 
   background-size: 29rem 29rem;
   background-position: 50%;
+}
+@media screen and (max-width: 600px) {
+  #feaure {
+    height: auto;
+  }
+  #feature .wrapper {
+    flex-direction: column;
+  }
+  #feature .image, #feature .text {
+    flex-basis: 100%;
+  }
+  #feature h2, #feature .title-border-simple, #feature .title-border-colored {
+    margin-left: 0;
+  }
 }
