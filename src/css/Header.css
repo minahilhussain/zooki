@@ -53,27 +53,25 @@
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
+    zoom: 1.5;
   }
   .topnav {
     overflow: hidden;
     background-color: #000;
     width: 100%;
-    padding:auto 0;
-    margin:auto 0;
+    padding:0;
+    color: #fff;
+    transition: all .5s ease-in-out;
+  } 
+  .topnav.responsive {
+    position: relative;
   }
-}
-@media screen and (max-width: 600px) {
-  .topnav {
-    overflow: hidden;
-    background-color: #0e6cff;
-    width: 100%;
-    padding: 0;
-  }
-  .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -85,8 +83,6 @@
     text-align: left;
   }
   .topnav.responsive img {
-    background-color: red;
-    max-zoom: 1.2%;
     width: 35%;
     height: 20%;
   }
