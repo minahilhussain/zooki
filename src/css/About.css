@@ -9,7 +9,7 @@
   padding: 2rem;
 }
 #about .wrapper {
-  width: clamp(300px,100%, 1100px);
+  width: clamp(250px,100%, 1100px);
   margin: 0 auto;
 }
 .grid1 {
@@ -104,8 +104,9 @@
     grid-template-columns: 1fr;
     margin: 0.5rem auto !important;
   }
-  #about .grid2 .right img {
-    max-width: 400px;
+  #about .grid2 div, #about .grid2 .right img {
+    width: 95% !important;
+    margin: 0 auto;
   }
   #about h2, #about .title-border-simple {
     margin-left: 0;
