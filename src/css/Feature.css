@@ -70,4 +70,13 @@
   #feature h2, #feature .title-border-simple, #feature .title-border-colored {
     margin-left: 0;
   }
+  #feature img {
+    width: 95% !important;
+    margin: 0 auto;
+  }
+  #feature .image img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: all .5s;
+}
 }
