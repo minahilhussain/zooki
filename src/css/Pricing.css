@@ -1,5 +1,5 @@
 #pricing {
-  height: 85vh;
+  height: 83vh;
 }
 #pricing .wrapper {
   width: clamp(300px,100%, 1100px);
